@@ -6,6 +6,18 @@ React, Styled-components
 
 # ✨ DEMO
 
+[DEMO](https://confident-murdock-b87079.netlify.app "netlify로 demo를 배포중입니다.")
+
+<br/>
+
+# ✨ 설치 및 시작 방법
+
+```
+$ npm install
+
+$ npm start
+```
+
 # ✨ 구현 목록
 
 ## AutoComplte
@@ -76,13 +88,3 @@ setInfo({ ...info, [id]: value });
 - toggle의 배경색을 천천히 채우는 방법을 찾는 것이 어려웠으며,<br/>
   linear-gradient를 사용하여 배경이 한쪽에서 부터 부드럽게 채워지는 느낌을 줄 수 있었습니다.
 - power 상태로 toggle의 on/off 를 관리하여 class를 주어 CSS를 변경하였습니다.
-
-<br/>
-
-# ✨ 설치 및 시작 방법
-
-```
-$ npm install
-
-$ npm start
-```

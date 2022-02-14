@@ -11,6 +11,7 @@ const ModalContainer = styled.div`
   align-items: center;
   height: 300px;
   > button {
+    cursor: pointer;
     background-color: #4900ce;
     border: none;
     border-radius: 25px;
@@ -42,6 +43,7 @@ const ModalBox = styled.div`
     justify-content: center;
     position: relative;
     > button {
+      cursor: pointer;
       position: absolute;
       top: 8px;
       background-color: white;

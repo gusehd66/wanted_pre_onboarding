@@ -58,7 +58,7 @@ const Tab = () => {
         {menuArray.map((menu, index) => {
           return (
             <li
-              key={index}
+              key={menu.name}
               className={`${index === tabNumber ? "active" : ""}`}
               onClick={() => onMenuClick(index)}
             >

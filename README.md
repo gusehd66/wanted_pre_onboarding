@@ -40,7 +40,7 @@ const regex = new RegExp(`${value}`, "gi");
 ![2022-02-04 16;54;20](https://user-images.githubusercontent.com/76733178/152492234-233fcabb-4f87-435f-ac7d-d6a0b1da002f.gif)
 
 - 두 개의 input 값을 하나의 state 객체로 관리하였습니다.
-- 하나의 이벤트를 선언하고 state를 동적으로 변경하기 위해 구현하는 과정에서 <br/>
+- 하나의 onBlur 이벤트를 선언하고 state를 동적으로 변경하기 위해 구현하는 과정에서 <br/>
   객체의 key값을 동적으로 할당하는데 어려움이 있었고,<br/>
   키 값에 대한 변수를 대괄호로 감싸는 방식으로 해결하였습니다.
 
